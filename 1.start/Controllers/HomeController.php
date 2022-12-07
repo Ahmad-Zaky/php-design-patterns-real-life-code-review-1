@@ -1,6 +1,8 @@
 <?php
 
-class HomeController
+require_once "class/Controller.php";
+
+class HomeController extends Controller
 {
 
     public static function show()
